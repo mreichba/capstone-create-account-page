@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Create Account</title>
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+  <main>
+    <h2>Create Account</h2>
+
+    <form class="sign-up">
+      <div class="container">
+
+        <p>Please fill in this form to create an account.</p>
+        <hr>
+
+        <label for="name"><b>Name</b></label>
+        <input type="text" placeholder="Enter Name" name="name" required>
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+
+        <label for="pw"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="pw" required>
+
+        <label for="pw-repeat"><b>Repeat Password</b></label>
+        <input type="password" placeholder="Repeat Password" name="pw-repeat" required>
+
+        <label for="safeword"><b>Safeword</b></label>
+        <input type="text" placeholder="Enter Safeword" name="safeword" required>
+
+        <label for="safeword-repeat"><b>Repeat Safeword</b></label>
+        <input type="text" placeholder="Repeat Safeword" name="safeword-repeat" required>
+        <hr>
+
+        <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+        <div class="buttons">
+          <button type="submit" class="register button">Register</button>
+          <button type="click" class="cancel">Cancel</button>
+        </div>
+      </div>
+
+      <div class="container signin">
+        <p>Already have an account? <a href="#">Sign in</a>.</p>
+      </div>
+    </form>
+  </main>
+</body>
+
+</html>
